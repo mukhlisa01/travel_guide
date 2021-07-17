@@ -1,0 +1,118 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+}
+
+
+nav{
+    background-color: rgb(107, 100, 145);
+    color: antiquewhite;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 40px;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul li:hover {
+    color: lightskyblue;
+}
+
+.start_trip{
+    background-image: url(start.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.link{
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.plan{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.heading {
+    color: rgb(17, 2, 53);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.info {
+    padding: 30px 100px;
+    line-height: 35px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+.more{
+    color: gray;
+    border: 1px gray solid;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+
+
+.top{
+    background-image: url(top_10.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.istanbul{
+    background-image: url(turkey-istanbul.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.food{
+    background-image: url(food.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer{
+    color: white;
+    text-align: center;
+    background:rgb(107, 100, 145);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    
+}
+
+#footer nav{
+    padding: 50px;
+}
+
+.subscribe{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+
